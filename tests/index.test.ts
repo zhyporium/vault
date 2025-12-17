@@ -8,6 +8,6 @@ describe("CollectiveVault", () => {
       webhookSecret: "123",
     });
 
-    expect(vault).toBeInstanceOf(vault);
+    expect(vault).toBeInstanceOf(CollectiveVault);
   });
 });

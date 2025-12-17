@@ -1,5 +1,5 @@
 import { REST } from "@zhyporium/rest";
-export * from "./types.d";
+export * from "./types";
 import type { CollectiveVaultAPI } from "./types";
 import { Webhook } from "./internal/webhook";
 import { WaitlistResource } from "./resources/waitlist";

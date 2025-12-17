@@ -412,7 +412,7 @@ export declare namespace CollectiveVaultAPI {
       };
       customer: Pick<Customer, "id" | "name" | "email"> | null;
     };
-    "currency.update": {
+    "currency.updated": {
       currency: Currency;
     };
     "waitlist.created": Waitlist;
@@ -456,7 +456,5 @@ export declare namespace CollectiveVaultAPI {
     | WebhookBody<"customer.subscription.cancelled">
     | WebhookBody<"customer.subscription.expired">
     | WebhookBody<"customer.subscription.deleted">
-    | WebhookBody<"payment.created">
-    | WebhookBody<"payment.updated">
-    | WebhookBody<"payment.deleted">;
+    | WebhookBody<"payment.created">;
 }

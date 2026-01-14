@@ -330,11 +330,6 @@ export declare namespace CollectiveVaultAPI {
                 type: "FIXED_AMOUNT";
                 amount: number;
               };
-          customEquities?: {
-            accountType: PaymentTransactionLedgerEntryAccountType;
-            accountId: string;
-            percentage: number;
-          }[];
         };
         response: {
           payment: Payment;

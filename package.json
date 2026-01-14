@@ -1,6 +1,6 @@
 {
   "name": "@zhyporium/vault",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A type-safe Collective Vault API wrapper for TypeScript that provides full type checking for the Collective Vault API routes and responses.",
   "keywords": [],
   "type": "module",

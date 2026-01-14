@@ -320,11 +320,7 @@ export declare namespace CollectiveVaultAPI {
           provider: string;
           providerId: string;
           metadata?: Record<string, string>;
-          referral?: {
-            accountType: PaymentTransactionLedgerEntryAccountType;
-            accountId: string;
-            percentage: number;
-          };
+          affiliateCode?: string;
           discount?:
             | {
                 type: "PERCENTAGE";
